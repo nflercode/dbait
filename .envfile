@@ -1,0 +1,4 @@
+DB_HOST=localhost:5432
+DB_NAME=dbait_db
+DB_USERNAME=dbait_user
+DB_PASSWORD=dbait_pw

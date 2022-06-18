@@ -3,10 +3,8 @@ name: Publish
 on:
   pull_request:
     branches: [ "master" ]
-  push:
-    branches: [ "master" ]
-    tags:
-      - 'v*'
+  release:
+    action: 'published'
       
 env:
   IMAGE_NAME: nfler/dbaitargue 

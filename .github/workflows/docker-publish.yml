@@ -1,9 +1,12 @@
-name: Docker
+name: Publish
 
 on:
   pull_request:
     branches: [ "master" ]
-
+  push:
+    tags:
+      - 'v*'
+      
 env:
   IMAGE_NAME: nfler/dbaitargue 
 
